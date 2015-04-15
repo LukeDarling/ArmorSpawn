@@ -1,0 +1,15 @@
+name: ArmorSpawn
+author: LDX
+version: 3.0a
+api: 1.0.0
+main: LDX\ArmorSpawn\Main
+load: POSTWORLD
+website: "https://github.com/LDX-MCPE/ArmorSpawn"
+permissions:
+  armorspawn:
+    default: false
+    description: "Allows access to all ArmorSpawn features."
+    children:
+      armorspawn.receive:
+        default: true
+        description: "Allows you to receive armor when you spawn."
