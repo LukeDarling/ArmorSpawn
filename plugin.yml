@@ -1,7 +1,7 @@
 name: ArmorSpawn
 author: LDX
-version: 3.0a
-api: 1.0.0
+version: 3.0b
+api: [1.0.0, 2.0.0]
 main: LDX\ArmorSpawn\Main
 load: POSTWORLD
 website: "https://github.com/LDX-MCPE/ArmorSpawn"
